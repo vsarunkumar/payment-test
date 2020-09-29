@@ -2,9 +2,9 @@
   "name": "payment-test",
   "version": "0.0.0",
   "private": true,
+  "main": "index.js",
   "scripts": {
-    "build": "bower install && grunt build",
-    "start": "node index.js"
+    "build": "bower install && grunt build"
   },
   "dependencies": {
     "debug": "^4.2.0",
