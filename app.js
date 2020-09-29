@@ -25,4 +25,8 @@ app.use((req, res, next) => {
 
 app.use("/api", postsRoutes);
 
+app.use("",(req, res, next)=> {
+  res.send('Working')
+})
+
 module.exports = app;
